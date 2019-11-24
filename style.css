@@ -1,0 +1,64 @@
+/* remove bullet points, margin and padding from the list */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* make the left list elements float on the left-side */
+.navbar ul li.left-side {
+    float: left;
+}
+
+/* make the right list elements float on the right-side */
+.navbar ul li.right-side {
+    float: right;
+}
+
+.navbar ul.bot-nav {
+    background-color: #ececec;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: #4f5251;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar ul li a:visited {
+    text-decoration: none;
+    color: #4f5251;
+}
+
+.search-buttons {
+    padding: 10px;
+    text-align: center;
+}
+
+.search-buttons input {
+    padding: 10px;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.search-bar {
+    text-align: center;
+    padding: 5px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#location {
+    background-color: #ececec;
+    padding: 10px 10px;
+}
