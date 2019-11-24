@@ -4,75 +4,91 @@
     <head>
         <title>Google</title>
         <link rel="google icon" type="image/x-icon" href="images/google.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
     </head>
 
     <body>
 
         <!--top navigation bar--> 
-        <ul>
-            <li><a href="https://about.google/?fg=1&utm_source=google-AU&utm_
-            medium=referral&utm_campaign=hp-header" alt="About page link">
-            About</a></li>
+        <div class="navbar">
+            <ul class="top-nav">
+                <li class="left-side">
+                    <a href="https://about.google/?fg=1&utm_source=google-AU&utm_
+                    medium=referral&utm_campaign=hp-header" alt="About page link">
+                    About</a>
+                </li>
 
-            <li><a href="https://store.google.com/AU/?utm_source=hp_header
-            &utm_medium=google_ooo&utm_campaign=GS100042&hl=en-AU" 
-            alt="Store page link">Store</a></li>
+                <li class="left-side">
+                    <a href="https://store.google.com/AU/?utm_source=hp_header
+                    &utm_medium=google_ooo&utm_campaign=GS100042&hl=en-AU" 
+                    alt="Store page link">Store</a>
+                </li>
 
-            <li><a href="gmail.com" alt="Gmail page link">Gmail</a></li>
+                <li class="right-side">
+                    <a href="gmail.com" alt="Gmail page link">Gmail</a>
+                </li>
 
-            <li><a href="https://www.google.com.au/imghp?hl=en&tab=wi&ogbl" 
-                alt="Google images link">Images</a></li>
-        </ul>
+                <li class="right-side">
+                    <a href="https://www.google.com.au/imghp?hl=en&tab=wi&ogbl" 
+                    alt="Google images link">Images</a>
+                </li>
+            </ul>
+        </div>
 
         <!--Google logo-->
-        <img src="images/logo.jpeg" alt="Google logo">
+        <img id="google-image" src="images/logo.jpeg" alt="Google logo">
 
         <!--Google search bar-->
-        <form>
+        <form class="search-bar">
             <input type="textarea">
         </form>
-        <form>
+
+        <form class="search-buttons">
             <input type="submit" value="Google Search">
             <input type="button" value="I'm Feeling Lucky">
         </form>
 
         <!--Location bar - this is hardcoded for now-->
-        <p>Australia</p>
+        <p id="location">Australia</p>
 
         <!-- bottom navigation bar-->
-        <ul>
-            <li>
-                <a href="https://ads.google.com/intl/en_au/home/?
-                subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-00000
-                00024-0000000001&utm_source=google.com&utm_medium=refer
-                ral&utm_campaign=google_hpafooter&fg=1" alt="Advertising link">
-                Advertising</a>
-            </li>
+        <div class="navbar">
+            <ul clas="bot-nav">
+                <li class="left-side">
+                    <a href="https://ads.google.com/intl/en_au/home/?
+                    subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-00000
+                    00024-0000000001&utm_source=google.com&utm_medium=refer
+                    ral&utm_campaign=google_hpafooter&fg=1" alt="Advertising link">
+                    Advertising</a>
+                </li>
 
-            <li>
-                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-
-                g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_cam
-                paign=google_hpbfooter&fg=1#?modal_active=none" alt="Business link">
-                Business</a>
-            </li>
+                <li class ="left-side">
+                    <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-
+                    g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_cam
+                    paign=google_hpbfooter&fg=1#?modal_active=none" alt="Business link">
+                    Business</a>
+                </li>
 
-            <li>
-                <a href="https://www.google.com/search/howsearchworks/?fg=1" 
-                alt="How search works link">How Search works</a>
-            </li>
+                <li class="left-side">
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1" 
+                    alt="How search works link">How Search works</a>
+                </li>
 
-            <li>
-                <a href="https://policies.google.com/privacy?fg=1" alt="Privacy link">
-                Privacy</a>
-            </li>
+                <li class="right-side">
+                    <a href="https://policies.google.com/privacy?fg=1" alt="Privacy link">
+                    Privacy</a>
+                </li>
 
-            <li>
-                <a href="https://policies.google.com/terms?fg=1" alt="Terms of Service link">
-                Terms</a>
-            </li>
+                <li class="right-side">
+                    <a href="https://policies.google.com/terms?fg=1" alt="Terms of Service link">
+                    Terms</a>
+                </li>
 
-            <li>Settings</li>
-        </ul>
-
+                <li class="right-side">
+                    <a href="https://www.google.com/preferences?hl=en-AU&fg=1" alt="Settings">Settings</a>
+                </li>
+            </ul>
+        </div>
     </body>
 </html>
